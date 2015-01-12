@@ -3,10 +3,8 @@ public:
     string addBinary(string a, string b) {
         int m=a.length()-1;
         int n=b.length()-1;
-        int len=max(m,n);
         string res;
         int cur=0;
-        int i=0;
         while(m>=0 || n>=0){
             int a_temp=m>=0?a[m]-'0':0;
             int b_temp=n>=0?b[n]-'0':0;
